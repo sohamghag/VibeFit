@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "VibeFit",
+    "slug": "vibefit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "scheme": "aiapp",
+    "userInterfaceStyle": "automatic",
+
+    "android": {
+      "package": "com.anonymous.aiapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+
+    "plugins": ["expo-router"]
+  }
+}
