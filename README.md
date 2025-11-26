@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+🏋️‍♂️ VibeFit – AI Powered Fitness App
+Built with React Native · Expo · Expo Router · NativeWind · Clerk Auth · Gemini AI · AsyncStorage
+⭐ Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+VibeFit is a modern AI-assisted fitness application designed to help users discover exercises, track workouts, and stay consistent with their fitness goals.
+The app features a beautiful, smooth UI built with NativeWind, secure authentication with Clerk, and smart suggestions powered by Google Gemini AI.
 
-## Get started
+VibeFit is fully production-ready with a clean architecture, EAS build configuration, custom splash screens, and optimized performance.
 
-1. Install dependencies
+🔥 Features
+🔐 Secure Authentication
 
-   ```bash
-   npm install
-   ```
+Email/password login with Clerk
+Persistent sessions via Secure Storage
+Smooth onboarding flow
 
-2. Start the app
+🧠 AI-Driven Fitness Assistance
 
-   ```bash
-   npx expo start
-   ```
+Powered by Google Gemini
+Exercise suggestions & form tips
+Smart search and auto-recommendations
 
-In the output, you'll find options to open the app in a
+🏋️ Workout Tracking
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Save workout sessions locally using AsyncStorage
+Maintain workout history
+Easy-to-read logs and stats
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🔍 Exercise Library
 
-## Get a fresh project
+Explore categorized exercises
+Search instantly with dynamic filtering
+Clean design with quick access to details
 
-When you're ready, run:
+🎨 Modern UI/UX
 
-```bash
-npm run reset-project
-```
+Built with NativeWind (TailwindCSS for RN)
+Fully responsive and consistent screens
+Custom splash screen, icon, and adaptive icons
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🚀 Production-ready Setup
 
-## Learn more
+EAS Build integrated (Android APK/AAB)
+Clean Babel + Metro configs
+Expo Router with typed routes
+Smooth navigation and animations
 
-To learn more about developing your project with Expo, look at the following resources:
+🛠️ Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Purpose	        Technology
+Framework	     React Native + Expo
+Navigation	     Expo Router
+UI	              NativeWind (Tailwind)
+Auth	           Clerk Auth
+Storage	        Sanity
+AI	              Google Gemini API
+Icons	           Lucide React Native
+Build	           EAS Build
