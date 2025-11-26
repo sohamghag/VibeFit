@@ -74,7 +74,7 @@ Powered by **Google Gemini**
 
 You can download the latest **VibeFit Android APK** from the GitHub Releases section:
 
-👉 **[Download VibeFit APK](./vibefit.apk)**  
+👉 **[Download VibeFit APK](https://github.com/sohamghag/VibeFit/releases/download/v1.0.0/VibeFit.App.apk)**  
 *(Upload your APK inside "Releases" so the link works.)*
 
 ---
