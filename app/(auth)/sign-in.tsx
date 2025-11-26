@@ -103,6 +103,7 @@ export default function SignInPage() {
           <Text className="text-gray-700 mb-1">Email</Text>
           <TextInput
             placeholder="Enter your email"
+            placeholderTextColor="#6B7280"
             autoCapitalize="none"
             value={email}
             onChangeText={setEmail}
@@ -114,11 +115,13 @@ export default function SignInPage() {
           <View className="relative mb-4">
             <TextInput
               placeholder="Enter your password"
+              placeholderTextColor="#6B7280"
               secureTextEntry={!showPassword}
               value={password}
               onChangeText={setPassword}
               className="border border-gray-300 rounded-xl px-4 py-3 bg-gray-50"
             />
+
             <TouchableOpacity
               onPress={() => setShowPassword(!showPassword)}
               className="absolute right-4 top-3.5"

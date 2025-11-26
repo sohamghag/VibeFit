@@ -5,21 +5,52 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/splash.png",
-    "scheme": "aiapp",
+    "scheme": "vibefit",
     "userInterfaceStyle": "automatic",
 
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1117"
+    },
+
     "android": {
-      "package": "com.anonymous.aiapp",
+      "package": "com.anonymous.vibefit",
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0D1117"
       }
+    },
+
+    "ios": {
+      "supportsTablet": true
     },
 
     "web": {
       "favicon": "./assets/splash.png"
     },
 
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0D1117"
+        }
+      ]
+    ],
+
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "30d006fc-e676-4e29-88ce-6e3a07e955c2"
+      }
+    },
+
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }

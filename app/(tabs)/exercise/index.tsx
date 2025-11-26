@@ -1,23 +1,18 @@
-import React, { useEffect, useState, useCallback } from "react";
+import { Exercise } from "@/sanity/sanity.types";
+import { urlFor } from "@/sanity/sanityClient";
+import { router } from "expo-router";
+import React, { useCallback, useEffect, useState } from "react";
 import {
-  View,
-  Text,
-  TextInput,
   FlatList,
   Image,
-  TouchableOpacity,
-  Linking,
-  ActivityIndicator,
   RefreshControl,
-  Modal,
-  ScrollView,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { getAllExercises } from "../../../sanity/lib/exerciseApi";
-import { Exercise } from "@/sanity/sanity.types";
-import { urlFor } from "@/sanity/sanityClient";
-import { getExerciseAI } from "@/sanity/lib/getExerciseAI";
-import { router } from "expo-router";
 
 export default function ExerciseScreen() {
   const [aiLoading, setAiLoading] = useState(false);
@@ -40,6 +35,11 @@ export default function ExerciseScreen() {
   useEffect(() => {
     loadData();
   }, []);
+  useEffect(() => {
+    console.log("====================================");
+    console.log(allExercises);
+    console.log("====================================");
+  }, [allExercises]);
 
   const onRefresh = useCallback(async () => {
     setRefreshing(true);
@@ -73,7 +73,8 @@ export default function ExerciseScreen() {
         value={search}
         onChangeText={handleSearch}
         placeholder="Search exercises..."
-        className="bg-gray-100 p-4 rounded-2xl text-base mb-4"
+        placeholderTextColor="#6B7280" // Tailwind gray-500
+        className="bg-gray-100 p-4 rounded-2xl text-base mb-4 text-black"
       />
 
       {/* 🏋️ Exercise List */}
