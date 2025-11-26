@@ -1,58 +1,83 @@
-🏋️‍♂️ VibeFit – AI Powered Fitness App
-Built with React Native · Expo · Expo Router · NativeWind · Clerk Auth · Gemini AI · AsyncStorage
-⭐ Overview
+# 🏋️‍♂️ VibeFit – AI Powered Fitness App  
+### *React Native · Expo · Expo Router · NativeWind · Clerk Auth · Sanity CMS · Gemini AI · AsyncStorage*
 
-VibeFit is a modern AI-assisted fitness application designed to help users discover exercises, track workouts, and stay consistent with their fitness goals.
-The app features a beautiful, smooth UI built with NativeWind, secure authentication with Clerk, and smart suggestions powered by Google Gemini AI.
+---
 
-VibeFit is fully production-ready with a clean architecture, EAS build configuration, custom splash screens, and optimized performance.
+## ⭐ Overview
 
-🔥 Features
-🔐 Secure Authentication
+**VibeFit** is a modern AI-assisted fitness application designed to help users discover exercises, track workouts, analyze progress, and stay consistent with their fitness journey.
 
-Email/password login with Clerk
-Persistent sessions via Secure Storage
-Smooth onboarding flow
+Built using **React Native + Expo**, it features:
+- Smooth UI with **NativeWind**
+- Secure login using **Clerk**
+- Dynamic content from **Sanity CMS**
+- AI-powered suggestions using **Google Gemini API**
+- Local workout tracking via **AsyncStorage**
 
-🧠 AI-Driven Fitness Assistance
+VibeFit is fully production-ready with EAS builds, custom splash screens, icons, and scalable architecture.
 
-Powered by Google Gemini
-Exercise suggestions & form tips
-Smart search and auto-recommendations
+---
 
-🏋️ Workout Tracking
+## 🔥 Features
 
-Save workout sessions locally using AsyncStorage
-Maintain workout history
-Easy-to-read logs and stats
+### 🔐 Secure Authentication
+- Email/password login with **Clerk**
+- Auto-login with persistent secure sessions
 
-🔍 Exercise Library
+### 🧠 AI Fitness Assistant
+Powered by **Google Gemini**
+- Exercise explanations  
+- Personalized workout tips  
+- Smart search recommendations  
 
-Explore categorized exercises
-Search instantly with dynamic filtering
-Clean design with quick access to details
+### 🏋️ Workout Tracking
+- Saves completed workouts using **AsyncStorage**
+- Track history & progress visually
+- Local-first, fast storage
 
-🎨 Modern UI/UX
+### 🔍 Exercise Library
+- Exercises fetched from **Sanity CMS**
+- Category-based discovery
+- Real-time filtering with search bar
 
-Built with NativeWind (TailwindCSS for RN)
-Fully responsive and consistent screens
-Custom splash screen, icon, and adaptive icons
+### 🎨 Clean Modern UI
+- Fully responsive layouts via **NativeWind**
+- Custom splash screen + app icon
+- Smooth navigation with **Expo Router**
 
-🚀 Production-ready Setup
+### 🚀 Production Ready
+- **EAS Build** optimized (APK / AAB)
+- Clean Metro + Babel configuration
+- Typed routes enabled
+- Works offline for workout history
 
-EAS Build integrated (Android APK/AAB)
-Clean Babel + Metro configs
-Expo Router with typed routes
-Smooth navigation and animations
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Purpose	        Technology
-Framework	     React Native + Expo
-Navigation	     Expo Router
-UI	              NativeWind (Tailwind)
-Auth	           Clerk Auth
-Storage	        Sanity
-AI	              Google Gemini API
-Icons	           Lucide React Native
-Build	           EAS Build
+| Purpose | Technology |
+|--------|------------|
+| Framework | **React Native + Expo** |
+| Navigation | **Expo Router** |
+| UI Styling | **NativeWind (TailwindCSS)** |
+| Authentication | **Clerk Auth** |
+| Backend CMS | **Sanity.io** |
+| Database | **Sanity Dataset** |
+| Local Storage | **AsyncStorage** |
+| AI Engine | **Google Gemini API** |
+| Icons | **Lucide React Native** |
+| Build System | **EAS Build** |
+
+---
+
+## 📥 APK Available for Download
+
+You can download the latest **VibeFit Android APK** from the GitHub Releases section:
+
+👉 **[Download VibeFit APK](./vibefit.apk)**  
+*(Upload your APK inside "Releases" so the link works.)*
+
+---
+
+
+
